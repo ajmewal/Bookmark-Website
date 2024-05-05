@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="index.css">
+  <script defer src="index.js"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="sidebar">
+    <div style="display: flex;flex-direction: column;     height: 100%;    width: 95vw;">
+
+      <div style="display:flex;justify-content: space-around;
+      margin: 40px 0%;
+      width: 100%;">
+        <img src="/images/logo-bookmark white.svg" width="150px"  alt="">
+        <span class="material-symbols-outlined close">
+          close
+          </span>
+      </div>
+      <div class="sidebar-links ">
+        <div class="features-select-hr-divider"></div>
+        <a href="">FEAUTRES</a>
+        <div class="features-select-hr-divider"></div>
+        <a href="">PRICING</a>
+        <div class="features-select-hr-divider"></div>
+        <a href="">CONTACT</a>
+        <div class="features-select-hr-divider"></div>
+        <a href="">LOGIN</a>
+        <div class="features-select-hr-divider"></div>
+      </div>
+    </div>
+    <div class="social sidebar-social">
+      <div>
+        <img src="/images/icon-facebook.svg" alt="">
+      </div>
+      <div>
+        <img src="/images/icon-twitter.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <nav>
+    <div class="logo">
+    </div>
+    <div style="display: none;" class="humburger">
+      <img src="images/icon-hamburger.svg" alt="">
+    </div>
+    <ul class="list">
+      <li>Features</li>
+      <li>Pricing</li>
+      <li>Contact</li>
+      <li><button>Login</button></li>
+    </ul>
+  </nav>
+  <div class="illustration">
+    <div class="left">
+
+      <div class="left-div">
+
+        <h1>A Simple Bookmark Manager</h1>
+        <div class="text">A clean and simple interface to organize your favourite websites. Open a new
+          browser tab and see your sites load instantly. Try it for free.</div>
+
+        <div style="display: flex; gap: 10px;">
+          <button class="box box1">Get it on Chrome</button>
+          <button class="box box2">Get it on Firefox</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="right">
+      <img src="/images/illustration-hero.svg" width="90%">
+    </div>
+  </div>
+
+  <div class="features">
+    <div class="features-div">
+
+      <h1>
+        Features
+      </h1>
+      <div class="text">
+        Our aim is to make it quick and easy for you to access your favourite websites.
+        Your bookmarks sync between your devices so you can access them on the go.
+      </div>
+      <div>
+        <div class="features-select">
+          <div class="first">
+            <p style="padding: 20px;">Simple Bookmarking</p>
+            <div class="bottom-divider bottom-divider1"></div>
+
+          </div>
+          <div class="second">
+            <p style="padding: 20px;">Speedy Searching</p>
+            <div class="bottom-divider bottom-divider2" style="display: none;"></div>
+
+          </div>
+          <div class="third">
+            <p style="padding: 20px;">Easy Sharing</p>
+
+            <div class="bottom-divider bottom-divider3" style="display: none;"></div>
+          </div>
+        </div>
+
+        <div class="features-select-hr-divider"></div>
+
+      </div>
+      <div class="feature-image">
+
+        <div class="right">
+          <img src="/images/illustration-features-tab-1.svg" width="90%">
+        </div>
+
+        <div class="left">
+
+          <div class="left-div one">
+
+            <h1>Bookmark in one click</h1>
+            <div >Organize your bookmarks however you like. Our simple drag-and-drop interface
+              gives you complete control over how you manage your favourite sites.</div>
+
+            <div>
+              <button class="box box1">More Info</button>
+            </div>
+          </div>
+          <div class="left-div sec" style="display: none;">
+
+            <h1>Intelligent search</h1>
+            <div>Our powerful search feature will help you find saved sites in no time at all.
+              No need to trawl through all of your bookmarks.</div>
+
+            <div>
+              <button class="box box1">More Info</button>
+            </div>
+          </div>
+          <div class="left-div thi" style="display: none;">
+
+            <h1>Share your bookmarks</h1>
+            <div>Easily share your bookmarks and collections with others. Create a shareable
+              link that you can send at the click of a button.</div>
+
+            <div>
+              <button class="box box1">More Info</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="downloads">
+    <h1>
+      Download the extension
+    </h1>
+    <div class="text">
+      We’ve got more browsers in the pipeline. Please do let us know if you’ve
+      got a favourite you’d like us to prioritize.
+    </div>
+    <div style="display: flex;" class="downloads-div">
+      <div class="card">
+        <img src="/images/logo-chrome.svg" width="50%">
+        <h2>
+          Add to Chrome
+        </h2>
+        <p>Minimum version 62</p>
+        <div class="divider"></div>
+        <button class="box box1">Add & Install Extension</button>
+      </div>
+      <div class="card card2">
+        <img src="/images/logo-firefox.svg" width="50%">
+        <h2>
+          Add to Firefox
+        </h2>
+        <p>Minimum version 55</p>
+        <div class="divider"></div>
+        <button class="box box1">Add & Install Extension</button>
+      </div>
+      <div class="card card3">
+        <img src="/images/logo-opera.svg" width="50%">
+        <h2>
+          Add to Opera
+        </h2>
+        <p>Minimum version 46</p>
+        <div class="divider"></div>
+        <button class="box box1">Add & Install Extension</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="feq">
+    <h1>
+      Frequently Asked Questions
+    </h1>
+    <div class="text">
+      Here are some of our FAQs. If you have any other questions you’d like
+      answered please feel free to email us.
+    </div>
+    <div class="feq-ques">
+      <div class="hor-div"></div>
+      <button class="accordion">What is Bookmark?
+        <div><span class="material-symbols-outlined">
+            expand_more
+          </span></div>
+      </button>
+      <div class="panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
+          justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+      </div>
+      <div class="hor-div"></div>
+      <button class="accordion">How can I request a new browser?
+        <div><span class="material-symbols-outlined">
+            expand_more
+          </span></div>
+      </button>
+      <div class="panel">
+        <p>Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
+          Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+          ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
+          Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+      </div>
+      <div class="hor-div"></div>
+      <button class="accordion">Is there a mobile app?
+        <div><span class="material-symbols-outlined">
+            expand_more
+          </span></div>
+      </button>
+      <div class="panel">
+        <p>Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
+          urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
+          sollicitudin ex et ultricies bibendum.</p>
+      </div>
+      <div class="hor-div"></div>
+      <button class="accordion">What about other Chromium browsers?
+        <div><span class="material-symbols-outlined">
+            expand_more
+          </span></div>
+      </button>
+      <div class="panel">
+        <p>Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
+          vitae neque eget nisl gravida pellentesque non ut velit.</p>
+      </div>
+      <div class="hor-div"></div>
+    </div>
+    <button class="box box1">More Info</button>
+  </div>
+
+  <div class="search">
+    <div class="search-div">
+      <h3>35,000+ already joined</h3>
+      <h1>Stay up-to-date with what we’re doing</h1>
+      <div class="email">
+        <input type="email" name="email" id="" class="box">
+        <button class="box box3">Contact Us</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <div class="links">
+      <div class="logo1">
+  
+      </div>
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="social">
+      <div>
+        <img src="/images/icon-facebook.svg" alt="">
+      </div>
+      <div>
+        <img src="/images/icon-twitter.svg" alt="">
+      </div>
+    </div>
+  </div> 
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Morning-star</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
